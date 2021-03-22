@@ -1,0 +1,17 @@
+h1 {
+  color : rgba(123,0,237,0.5); /* code rgb(a) */
+  font-size: 98px;
+  font-family: "Times New Roman", cursive, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+  header {
+    border: 8px solid #4529a8;
+    text-align: center;
+    display: flex; /* modifier le comportement d'un élément */
+    justify-content: space-around;
+    align-items: center;
+    height: 135px;
+  }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajouter_chaussure</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+        <h1>chaussure direct</h1>
+    </header>
+<!-- -->
+    <form action="ajouter_chaussure.php" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Formulaire d' ajout de chaussure </legend>
+          <label for="modele">nom du modèle</label>
+        <input name="modele" type="text" placeholder="Entrez le modèle de chaussure"
+        maxlength="100" size="40" value=>
+
+        <br/>
+            <label for="pointure">pointure</label>
+        <input name="pointure" type="number" placeholder="pointure FR" size="50" >
+      <br/>
+        <label for="prix">prix</label>
+    <input name="prix" step="0.1" type="number" placeholder="prix en €" size="50">
+
+      <br/>
+      <br /><br />
+      <label for="description" class="mylabel">Description</label><br />
+      <textarea name="description" rows="4" cols="50">
+
+</textarea><br />
+      <br />
+        <input type="submit" name="submit"value="enregistrer">
+    </fieldset>
+</form>
+
+  </body>
+</html>
