@@ -14,4 +14,5 @@
 <body>
   <header>
       <h1>chaussure direct</h1>
+      <h2>magasin de chaussure</h2>
   </header>
